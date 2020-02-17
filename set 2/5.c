@@ -1,20 +1,12 @@
 #include<stdio.h>
-
-int main() {
+#include<math.h>
+int main() 
+{
     
-    int a; 
-    int bit = 0;
-
-    printf("Give a number : ");
+    int a,b;
     scanf("%d", &a);
-
-    for (int i = a; i != 0; i = a/2)
-    {
-        bit++;
-    }
-    
-    printf("bits = %d\n", bit);
-
-    
+    y=log2(a)+1;
+    printf("%d" ,b);
     return 0;
+
 }

@@ -1,19 +1,11 @@
 #include<stdio.h>
 
-int main() {
+int main() 
+{
     
     int a ,b;
-
-    printf("Enter 2 numbers: \n ");
-    scanf("%d%d", &a, &b);
-
-    a = a - b;
-    b = a + b;
-    a = b - a;
-
-    printf("a = %d \n b = %d", a, b);
-
-    
-
+    scanf("%d,%d", &a, &b);
+    printf("%d,%d",b,a);
     return 0;
-}
+
+}`

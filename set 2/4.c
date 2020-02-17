@@ -7,11 +7,11 @@ int main()
     int b;
 
     printf("Give a character to get ASCII value: \n");
-    scanf("%c", &a);
+    scanf("%d", &b);
 
-    b = a;
+    a = b;
 
-    printf("%d", b);
+    printf("%c", a);
 
     return 0;
 }

@@ -1,13 +1,14 @@
 #include<stdio.h>
 
-int main() {
-    
+int main() 
+{
+
     int a, b;
 
-    printf("Enter two numbers: ");
-    scanf("%d%d", &a, &b);
+    // printf("Please give 2 integers: \n");
+    scanf("%d,%d", &a,&b);    
 
-    if(b%a == 0)
+    if (b%a == 0)
     {
         printf("YES");
     }
@@ -17,5 +18,8 @@ int main() {
     }
     
     
+
     return 0;
 }
+
+

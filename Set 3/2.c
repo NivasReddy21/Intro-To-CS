@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main()
 {
     int prob1(int);
@@ -6,7 +7,8 @@ int main()
 
     if (prob1(-29) == 0 && prob1(31) == 0)
     {
-        printf("-29 and 31 are the roots for the first equation\n");
+        // printf("-29 and 31 are the roots for the first equation\n");
+        printf("-3");
     }
 
     if (prob2(-2931) == 0)

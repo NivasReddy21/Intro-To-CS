@@ -9,16 +9,16 @@ int main()
     int qut;
     int rem;
 
-    printf("Please give the first number: ");
-    scanf("%d", &a);
+    // printf("Please give the first number: ");
+    scanf("%d,%d", &a, &b);
 
-    printf("Please give the second number: ");
-    scanf("%d", &b);
+    // printf("Please give the second number: ");
+    
 
     qut = a/b;
     rem = a%b;
 
-    printf("Quotient is: %d and remainder is: %d", qut, rem);
+    printf("%d,d", qut, rem);
 
     return 0;
 
